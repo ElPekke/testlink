@@ -1,0 +1,23 @@
+[{
+  "relation": ["delegate_permission/common.handle_all_urls"],
+  "target": {
+    "namespace": "android_app",
+    "package_name": "com.test.testlink",
+    "sha256_cert_fingerprints":
+    ["80:AA:8F:E4:4D:4D:4E:BE:BD:80:08:89:F4:76:CC:81:C6:91:6B:B6:34:40:F7:C6:EA:E0:ED:F0:06:FD:91:49"]
+  }
+},
+{
+  "relation": ["delegate_permission/common.get_login_creds"],
+  "target": {
+    "namespace": "web",
+    "site": "https://elpekke.github.io"
+  }
+},
+{
+  "relation": ["delegate_permission/common.get_login_creds"],
+  "target": {
+    "namespace": "android_app",
+    "package_name": "com.test.testlink",
+    "sha256_cert_fingerprints":
+    ["80:AA:8F:E4:4D:4D:4E:BE:BD:80:08:89:F4:76:CC:81:C6:91:6B:B6:34:40:F7:C6:EA:E0:ED:F0:06:FD:91:49"]
